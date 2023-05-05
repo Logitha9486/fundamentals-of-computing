@@ -1,0 +1,15 @@
+//Generation of number series 1, 2, 3, 4,…..n//
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n;
+printf("enter a number");
+scanf("%d",&n);
+
+for(int i=1;i<=n;i++)
+{
+	printf("%d",i);
+	}
+	return 0;	
+}
