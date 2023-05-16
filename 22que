@@ -1,0 +1,14 @@
+//22. Swapping two numbers with a temporary variable
+#include<stdio.h>
+int main()
+{
+	int a,b,temp;
+	printf("enter  a and b value");
+	scanf("%d%d",&a,&b);
+	temp=a;
+	a=b;
+	b=temp;
+	printf("swapping of two numbers a=%d",a);
+	printf("swapping of two numbers b=%d",b);
+	return 0;
+}
