@@ -1,0 +1,14 @@
+//20. Finding whether the given integer is odd or even
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	printf("enter n value");
+	scanf("%d",&n);
+	if(i%2==0)
+	printf("it is even");
+	else
+	printf("it is odd");
+	return 0;
+	
+}
