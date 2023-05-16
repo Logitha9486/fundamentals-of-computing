@@ -1,0 +1,20 @@
+//24. Swap 3 numbers a to b, b to c and c to a
+#include<stdio.h>
+int main()
+{
+	int a,b,c,temp;
+	printf("enter  a and b and c value");
+	scanf("%d%d%d",&a,&b,&c);
+	
+	a=a+b+c;
+	b=a-b-c;
+	c=a-b-c;
+	a=a-b-c;
+	printf("a value is %d",a);
+	printf("b value is %d",b);
+	printf("c value is %d",c);
+	return 0;
+}
+	
+	
+	
