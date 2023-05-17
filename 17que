@@ -1,0 +1,21 @@
+//17. Printing digits of an integer number
+#include<stdio.h>
+void printdigit(int num)
+{
+	int n;
+	if(num==0)
+	{
+		return;
+	}
+	n=num%10;
+	printdigit(num/10);
+	printf("%d",n);
+}
+int main()
+{
+	int num;
+	printf("enter an integer");
+	scanf("%d",&num);
+	printdigit(num);
+	return 0;
+}
